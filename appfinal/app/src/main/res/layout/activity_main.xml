@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/download"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:drawableStart="@drawable/baseline_person"
+        android:hint="Usuário"
+        android:inputType="textPersonName"
+        android:maxLength="50"
+        android:textColorHint="@color/black" />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:drawableStart="@drawable/baseline_email"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:maxLength="50"
+        android:textColorHint="@color/black" />
+
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:drawableStart="@drawable/baseline_lock"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:maxLength="50"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:drawableStart="@drawable/baseline_lock"
+        android:hint="Confirme a senha "
+        android:inputType="textPassword"
+        android:maxLength="50"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#094778"
+        android:text="Cadastrar"
+        app:cornerRadius="10dp" />
+
+
+    <TextView
+        android:layout_width="213dp"
+        android:layout_height="34dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Já tem cadastro? Clique aqui"
+        android:textColor="@color/black" />
+
+
+
+</LinearLayout>
+
+
